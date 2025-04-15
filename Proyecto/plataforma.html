@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plataforma Virtual - INTJEM</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a2e0c4b39b.js" crossorigin="anonymous"></script>
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">INTJEM</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="quienes-somos.html">¿Quiénes somos?</a></li>
+        <li class="nav-item"><a class="nav-link" href="admisiones.html">Admisión</a></li>
+        <li class="nav-item"><a class="nav-link" href="carreras.html">Nuestras Carreras</a></li>
+        <li class="nav-item"><a class="nav-link active" href="plataforma.html">Plataforma Virtual</a></li>
+        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Encabezado con imagen de fondo -->
+<header class="text-white text-center d-flex align-items-center" style="background-image: url('img/imgPlataforma.jpg'); background-size: cover; background-position: center; height: 50vh; position: relative;">
+  <div class="container position-relative z-1">
+    <h1 class="display-4 fw-bold" data-aos="fade-down">Plataforma Virtual</h1>
+    <p class="lead" data-aos="fade-up">Accede a tus clases, materiales y calificaciones en línea</p>
+  </div>
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); z-index: 0;"></div>
+</header>
+
+<!-- Contenido principal -->
+<section class="container py-5">
+  <div class="row g-4">
+
+    <!-- Google Workspace -->
+    <div class="col-lg-6" data-aos="fade-right">
+      <div class="card shadow-sm border-0 h-100">
+        <div class="card-body">
+          <h3 class="text-primary mb-3"><i class="fab fa-google me-2"></i>Google Workspace</h3>
+          <p>Desde el 2020, INTJEM incorporó Google Workspace como herramienta educativa clave en la modalidad semipresencial.</p>
+          <ul>
+            <li><strong>Usuario:</strong> Proporcionado al momento de la inscripción.</li>
+            <li><strong>Contraseña:</strong> <code>jm.</code> seguido del número de C.I. Ej: <code>jm.7654321</code></li>
+          </ul>
+          <p>Estas credenciales son temporales y puedes cambiarlas posteriormente.</p>
+          <p>Videos tutoriales:</p>
+          <ul>
+            <li><a href="https://www.youtube.com/watch?v=video_pc" target="_blank"><i class="fas fa-desktop me-2"></i>Ver Video para PC</a></li>
+            <li><a href="https://www.youtube.com/watch?v=video_celular" target="_blank"><i class="fas fa-mobile-alt me-2"></i>Ver Video para Celular</a></li>
+          </ul>
+          <p>Soporte por WhatsApp:</p>
+          <ul>
+            <li><strong>Mañana:</strong> 72304838</li>
+            <li><strong>Tarde:</strong> 75420010</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Plataforma Institucional -->
+    <div class="col-lg-6" data-aos="fade-left">
+      <div class="card shadow-sm border-0 h-100">
+        <div class="card-body">
+          <h3 class="text-primary mb-3"><i class="fas fa-chalkboard-teacher me-2"></i>Plataforma Institucional</h3>
+          <p>Los estudiantes inscritos acceden a esta plataforma para:</p>
+          <ul>
+            <li>Consultar documentos institucionales</li>
+            <li>Ver horarios de clases y materias</li>
+            <li>Revisar calificaciones</li>
+          </ul>
+          <p>Acceso:</p>
+          <ul>
+            <li><strong>Usuario:</strong> Tu cuenta de Google Workspace</li>
+            <li><strong>Contraseña:</strong> Tu número de C.I.</li>
+          </ul>
+          <a href="https://plataforma.intjem.edu.bo/" class="btn btn-outline-primary mt-3" target="_blank">
+            <i class="fas fa-sign-in-alt me-2"></i>Acceder a la Plataforma
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-primary text-white text-center py-4 mt-5">
+  <div class="container">
+    <p class="mb-0">&copy; 2025 Instituto Técnico Jesús María. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<!-- JS Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- AOS Animation JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
